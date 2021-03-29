@@ -13,6 +13,10 @@ dt, dd, ol, ul, li {
 Box-sizing: border-box;
 }
 
+.none {
+    display: none;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -22,6 +26,8 @@ img {
 body {
     font-family: 'PT Sans', sans-serif;
 }
+
+/* ------HEADER-------- */ 
 
 .header {
     position: relative;
@@ -46,6 +52,7 @@ body {
     width: 1170px;
     margin: 0 auto;
 } 
+
 .logo {
    font-family: 'Lobster', cursive;
     font-weight: 400;
@@ -57,6 +64,7 @@ body {
     font-weight: 400;
     font-size: 22px;
 }
+
 .header-nav-list {
     display: flex;
 }
@@ -122,5 +130,75 @@ body {
     height: 24px;
 
     background-image: url("../img/main/arrow-down.svg");
+}
 
+/* ------MAIN-------- */
+
+.main{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.no-margin {
+    margin-bottom: 0;
+}
+
+.main-content {
+    width: 470px;
+    color: #31405B;
+}
+
+.header-2 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.external-link{
+  color: #138ECE;  
+}
+
+.main-img {
+    width: 570px;
+}
+
+.button {
+    display: inline-block;
+    height: 50px;
+    padding: 0 40px;
+
+    background: #0AC883;
+    box-shadow: 0px 8px 20px rgba(24, 219, 148, 0.35);
+    border-radius: 50px;
+
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
 }
