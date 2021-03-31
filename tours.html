@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forest travel</title>
+    <title>Туры и направления</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap"
         rel="stylesheet">
@@ -14,14 +14,15 @@
 
 <body>
 
-    <header class="header">
+    <header class="header-inner">
         <!-- начало главного экрана-->
         <div class="header-top">
             <!-- содержит логотип, навигацию-->
             <div class="logo">ФорестТревел</div>
             <nav class="header-nav">
                 <ul class="header-nav-list">
-                    <li class="header-nav-list-item"><a class="header-nav-list-link" href="#">Главная</a></li>
+                    <li class="header-nav-list-item"><a class="header-nav-list-link" href="./index.html">Главная</a>
+                    </li>
                     <li class="header-nav-list-item"><a class="header-nav-list-link" href="./tours.html">Туры и
                             направления</a>
                     </li>
@@ -32,51 +33,76 @@
             </nav>
         </div>
 
-        <div class="header-content">
-            <h1 class="header-title">Путешествие всегда хорошая идея</h1>
-            <p class="header-subtitle">Турпоходы по дикой природе</p>
-        </div>
-
-        <a href="#" class="header-scroll">
-            скролл вниз
-        </a>
     </header> <!-- конец главного экрана-->
 
-    <main class="main">
-        <!-- главная секция-->
+    <main class="inner-page-tours">
         <div class="container">
-            <div class="main-row">
-                <div class="main-content">
-                    <h2 class="header-2">Популярные направления</h2>
-                    <p>Когда <b>Горный Алтай</b> называют второй Швейцарией, алтайцы отвечают, что нужно еще
-                        разобраться,<br>кто тут второй. Чтобы расставить все по местам, отправляйтесь в путешествие по
-                        Чуйскому тракту,<br> по <a href="https://ru.wikipedia.org/wiki/Республика_Алтай" target="_blank"
-                            class="external-link">Горному Алтаю</a> до самой Монголии. 962 км — полный
-                        маршрут<b> Новосибирск—Новоалтайск—Бийск—Майма</b> — государственная граница с Монголией.
-                    </p>
-                    <a href="#" class="button">Подробнее</a>
-                </div>
-                <div class="main-img"><img src="./img/main/pic1.jpg" alt="рука_держит_компас"></div>
+            <div class="inner-page-tours-header">
+                <h1 class="header-2">Туры и направления</h1>
             </div>
-        </div>
-        <div class="container">
-            <div class="main-row no-margin">
-                <div class="main-img"><img src="./img/main/pic2.jpg" alt="люди_идут_в поход"></div>
-                <div class="main-content">
-                    <h2 class="header-2">Впечатляющие маршруты</h2>
-                    <p>Вишенкой на торте станет поездка в Национальный парк <b>Порт-Кэмпбелл</b> через Ocean Road,
-                        которая сама по себе стоит визита в <a class="external-link"
-                            href="https://ru.wikipedia.org/wiki/Австралия" target="_blank">Австралию.</a> Полюбуетесь
-                        одной из главных
-                        достопримечательностей страны —
-                        скалами, которые до 1922 года были известны<br>в
-                        народе как <b>«Хрюшка и поросята»</b>, а сегодня носят название «Двенадцать апостолов».</p>
-                    <a href="#" class="button">Подробнее</a>
-                </div>
-            </div>
-        </div>
+            <div class="cards-wrapper">
+                <!-- Cards-wrapper -->
+                <!-- первый ряд карточек-->
+                <div class="cards-row-1">
+                    <a href="#" class="card-link-wrapper">
+                        <div class="card">
+                            <img src="./img/tours/01 1.jpg" alt="девушка_у_костра">
+                            <div class="card-title-wrapper free-tours">
+                                <h3 class="card-title">Бесплатные туры</h3>
+                            </div>
+                        </div>
+                    </a>
 
-    </main> <!-- конец главной секции-->
+                    <a href="#" class="card-link-wrapper">
+                        <div class="card">
+                            <img src="./img/tours/02 1.jpg" alt="пустыня">
+                            <div class="card-title-wrapper extreme-tours">
+                                <h3 class="card-title">Экстремальный отдых</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- // первый ряд карточек-->
+                <!-- второй ряд карточек-->
+                <div class="cards-row-2">
+                    <!-- колонка 1 -->
+                    <div class="cards-col-1">
+
+                        <a href="#" class="card-link-wrapper">
+                            <div class="cards-col-1-card">
+                                <img src="./img/tours/03 1.jpg" alt="долина">
+                                <div class="card-title-wrapper adventure-tours">
+                                    <h3 class="card-title">Невероятные приключения</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="card-link-wrapper">
+                            <div class="cards-col-1-card">
+                                <img src="./img/tours/04 1.jpg" alt="пара в лесу">
+                                <div class="card-title-wrapper tracking-tours">
+                                    <h3 class="card-title">Трекинг походы</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <!-- // колонка 1 -->
+                    <!-- колонка 2 -->
+                    <a href="#" class="card-link-wrapper">
+                        <div class="cards-col-2">
+                            <img src="./img/tours/05 1.jpg" alt="водопад">
+                            <div class="card-title-wrapper exotic-tours">
+                                <h3 class="card-title">Экзотические джунгли</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- // колонка 2 -->
+                </div>
+                <!-- // второй ряд карточек -->
+            </div><!-- // Cards-wrapper -->
+        </div>
+    </main>
 
     <footer class="footer">
         <div class="container">
