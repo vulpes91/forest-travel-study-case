@@ -3,10 +3,17 @@ font-family: 'PT Sans', sans-serif; */
 
 html,body,iframe, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, dl,
-dt, dd, ol, ul, li {
+dt, dd, ol, ul, li, fieldset {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    border: none;
+}
+
+legend {
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 
 *, *::before, *::after{
@@ -15,6 +22,7 @@ Box-sizing: border-box;
 
 html {
     scroll-behavior: smooth;
+    height: 100%; /*sticky footer*/
 }
 
 .none {
@@ -24,8 +32,15 @@ html {
 body {
     font-family: 'PT Sans', sans-serif;
     scroll-behavior: smooth;
-
+    height: 100%; /*sticky footer*/
+    display: flex; /*sticky footer*/
+    flex-direction: column; /*sticky footer*/
 }
+
+body > * {
+    flex-shrink: 0;
+}
+/* выбор любого элемента первого уровня вложенности внутри body  */
 
 .inner-body {
     background-color: #F2F8F6;
@@ -90,12 +105,15 @@ img {
     background-size: cover; /*  растянуть */
 
     color: #FFF;
+
+    flex-shrink: 0;
 }
 
 .header-inner {
     height: 100px;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 
     color: #FFF;
     background-color: #265847;
@@ -253,6 +271,7 @@ img {
     padding-top: 70px;
     padding-bottom: 90px;
     color: #fff;
+    margin-top: auto; /*sticky footer*/
 }
 
 .footer a{
@@ -803,3 +822,8 @@ img {
 
 /*---------//чекбоксы---------*/
 /* // форма заявки */
+
+
+.paragraph-404{
+    text-align: center;
+}
