@@ -695,6 +695,12 @@ img {
     color:#8F97A5;
 }
 
+.input:focus {
+    outline: none;
+    border: 2px solid rgb(42, 182, 152);
+    box-shadow: 0px 0px 13px 0px rgba(42, 182, 152, 0.75);
+}
+
 .radio-row {
     display: block;
     margin-bottom: 20px;
@@ -761,6 +767,10 @@ img {
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 35px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
 }
 
 .checkbox-row {
@@ -768,6 +778,7 @@ img {
     margin-bottom: 20px;
     cursor: pointer;
 
+    font-weight: 400;
     font-size: 18px;
     line-height: 23px;
 }
@@ -783,6 +794,9 @@ img {
 
 .real-checkbox:focus + .custom-checkbox {
     border: 1px solid #2AB698;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
 }
 
 .custom-checkbox {
@@ -797,7 +811,7 @@ img {
     background: #EEEEEE;
     border: 1px solid #C0C0C0;
 
-    position: relative;
+    position: relative;    
 }
 
 .custom-checkbox::before {
@@ -812,12 +826,12 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-40%, -40%) scale(0);
+    transform: translate(-40%, -35%) scale(0);
     transition: .25s ease-in;
     }
 
 .real-checkbox:checked + .custom-checkbox::before{
-    transform: translate(-40%, -40%) scale(1);
+    transform: translate(-40%, -35%) scale(1);
 }
 
 /*---------//чекбоксы---------*/
