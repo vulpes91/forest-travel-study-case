@@ -90,6 +90,13 @@ img {
     cursor: pointer;
 }
 
+.button:focus {
+    outline: none;
+    background: #0bd68c;
+    box-shadow: 0px 10px 22px rgba(24, 219, 148, 0.35);
+
+}
+
 /* ------HEADER-------- */ 
 
 .header {
