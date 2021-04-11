@@ -54,7 +54,9 @@ img {
 
 .container {
     margin: 0 auto;
-    width: 1170px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px; 
 }
 
 .inner-page {
@@ -138,6 +140,10 @@ img {
     width: 1170px;
     margin: 0 auto;
 } 
+
+.header-nav-button {
+    display: none;
+}
 
 .logo {
     font-family: 'Lobster', cursive;
@@ -224,7 +230,7 @@ img {
 
 /* ------------------------------------main-------------------------------------- */
 
-.main{
+.main {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -254,13 +260,13 @@ img {
     margin-bottom: 20px;
 }
 
-.main-content p {
+.main-content-text {
     font-weight: 400;
     font-size: 20px;
     line-height: 1.6;
 
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
 }
 
 .main-img {
@@ -850,4 +856,3 @@ img {
 }
 
 
-/* ------------------------МЕДИА ЗАПРОСЫ------------------------ */

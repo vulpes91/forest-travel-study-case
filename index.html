@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/media.css">
 
     <meta property="og:url" content="https://vulpes91.github.io/forest-travel-study-case/" />
     <meta property="og:type" content="website" />
@@ -34,7 +35,7 @@
 
 <body>
 
-    <header class="header">
+    <header class="header none">
         <!-- начало главного экрана-->
         <div class="header-top">
             <!-- содержит логотип, навигацию-->
@@ -50,6 +51,9 @@
                     <li class="header-nav-list-item"><a class="header-nav-list-link" href="./contacts.html">Контакты</a>
                     </li>
                 </ul>
+                <button class="header-nav-button">
+                    <img src="./img/menu.svg" alt="burger-menu">
+                </button>
             </nav>
         </div>
 
@@ -63,13 +67,14 @@
         </a>
     </header> <!-- конец главного экрана-->
 
-    <main class="main">
+    <main class="main none">
         <!-- главная секция-->
         <div class="container">
             <article class="main-row">
                 <div class="main-content">
                     <h2 class="header-2" id="main-page-scroll-target">Популярные направления</h2>
-                    <p>Когда <b>Горный Алтай</b> называют второй Швейцарией, алтайцы отвечают, что нужно еще
+                    <p class="main-content-text">Когда <b>Горный Алтай</b> называют второй Швейцарией, алтайцы отвечают,
+                        что нужно еще
                         разобраться,<br>кто тут второй. Чтобы расставить все по местам, отправляйтесь в путешествие по
                         Чуйскому тракту,<br> по <a href="https://ru.wikipedia.org/wiki/Республика_Алтай" target="_blank"
                             class="external-link">Горному Алтаю</a> до самой Монголии. 962 км — полный
@@ -85,13 +90,15 @@
                 <div class="main-img"><img src="./img/main/pic2.jpg" alt="люди_идут_в поход"></div>
                 <div class="main-content">
                     <h2 class="header-2">Впечатляющие маршруты</h2>
-                    <p>Вишенкой на торте станет поездка в Национальный парк <b>Порт-Кэмпбелл</b> через Ocean Road,
+                    <p class="main-content-text">Вишенкой на торте станет поездка в Национальный парк
+                        <b>Порт-Кэмпбелл</b> через Ocean Road,
                         которая сама по себе стоит визита в <a class="external-link"
                             href="https://ru.wikipedia.org/wiki/Австралия" target="_blank">Австралию.</a> Полюбуетесь
                         одной из главных
                         достопримечательностей страны —
                         скалами, которые до 1922 года были известны<br>в
-                        народе как <b>«Хрюшка и поросята»</b>, а сегодня носят название «Двенадцать апостолов».</p>
+                        народе как <b>«Хрюшка и поросята»</b>, а сегодня носят название «Двенадцать апостолов».
+                    </p>
                     <a href="#" class="button">Подробнее</a>
                 </div>
             </article>
