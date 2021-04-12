@@ -90,7 +90,11 @@
         padding-bottom: 50px;
     }
 
-    .footer-logo > .logo {
+    .footer-logo {
+    margin-bottom: 20px;
+    }
+
+    .footer-logo .logo {
         font-size: 30px;
         line-height: 37px;
     }
@@ -102,6 +106,10 @@
 
     .services {
         display: none;
+    }
+
+    .footer-widget-title {
+        margin-bottom: 20px;
     }
     /* //FOOTER */
     
@@ -189,6 +197,12 @@
 
     .footer-copyright {
         order: 1;
+        width: 100%;
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+        line-height: 1.6;
     }
 
     .footer-widget-wrapper {
@@ -274,6 +288,10 @@
         flex-direction: column;
     }
 
+    .footer-logo {
+    margin-bottom: 10px;
+    }
+
     .footer-widget {
         margin-left: 0;
         margin-right: 0;
@@ -293,5 +311,21 @@
     .services {
         display: block;
     }
+
+    .footer-widget-title {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    .footer-widget-list {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .footer-widget-list li {
+        margin-bottom: 10px;
+    }
+
     /* //FOOTER */
 }
