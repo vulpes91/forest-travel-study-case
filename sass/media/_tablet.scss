@@ -1,0 +1,119 @@
+/* ------------------------МЕДИА ЗАПРОСЫ------------------------ */
+/* -----------------------------------tablet----------------------------------- */
+@media (max-width:1199px) {
+    
+    .container {
+        width: 900px;
+    }
+
+    /* HEADER */
+    .header {
+        height: 590px;
+    }
+
+    
+
+    .header-top, .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    } 
+
+    .header-content {
+    flex-direction: column;
+    }
+
+    .header-nav-button {
+        display: block;
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 0;
+    }
+
+    .header-nav-list {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 52px;
+    }
+
+    .header-scroll {
+        font-size: 0;
+    }
+    /* //HEADER */
+
+    /* MAIN */
+    .main {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .main-content {
+        width: 420px;
+    }
+
+    .main-row {
+        margin-bottom: 80px;
+    }
+
+    .no-margin {
+        margin-bottom: 0;
+    }
+
+    .main-img {
+        width: 420px;
+    }
+
+    .main-header {
+        font-size: 50px;
+    }
+
+    .header-2 {
+        font-size: 50px;
+        line-height: 100%;
+    }
+
+    .main-content-text{
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    /* //MAIN */
+
+    /* FOOTER */
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer-logo {
+    margin-bottom: 20px;
+    }
+
+    .footer-logo .logo {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .services {
+        display: none;
+    }
+
+    .footer-widget-title {
+        margin-bottom: 20px;
+    }
+    /* //FOOTER */
+    
+}

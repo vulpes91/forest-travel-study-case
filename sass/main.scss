@@ -1,0 +1,19 @@
+//base 
+@import "./base/base";
+
+//blocks 
+@import "./blocks/logo";
+@import "./blocks/button";
+@import "./blocks/header";
+@import "./blocks/main";
+@import "./blocks/footer";
+@import "./blocks/inner";
+@import "./blocks/card-styles";
+@import "./blocks/articles";
+@import "./blocks/contacts";
+@import "./base/uiAndMisc";
+
+//media
+@import "./media/tablet";
+@import "./media/mobile";
+@import "./media/mobileXS";

@@ -1,0 +1,81 @@
+
+/* __________________________Контакты__________________________  */
+
+.contacts-header {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+    margin-bottom: 40px;
+}
+
+/* //__________________________Контакты__________________________  */
+
+.contacts-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contacts-info {
+    width: 470px;
+}
+
+
+.contact-block + .contact-block {
+    margin-top: 40px;
+}
+
+.contact-block-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-block-body {
+    font-size: 20px;
+}
+
+
+.contact-list li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 39px;
+}
+
+
+.contact-list-icon::before {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 24px;
+    width: 24px;
+}
+
+.contact-list-icon.phone {
+    background-image: url("../img/contacts/feather-icon/phone.svg");
+    background-repeat: no-repeat;
+}
+
+.contact-list-icon.mail {
+    background-image: url("../img/contacts/feather-icon/mail.svg");
+    background-repeat: no-repeat;
+}
+.contact-list-icon.address {
+    background-image: url("../img/contacts/feather-icon/map-pin.svg");
+    background-repeat: no-repeat;
+}
+
+
+.contact-list a {
+    text-decoration: none;
+    color: #31405B;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+    color: #138ECE;
+}

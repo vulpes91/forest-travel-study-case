@@ -1,0 +1,124 @@
+
+
+/* -----------------------------------mobile portrait XS----------------------------------- */
+
+@media (max-width:599px) {
+    .container {
+        width: 320px;
+    }
+
+
+    .logo {
+    font-size: 30px;
+    line-height: 37px;
+    }
+
+    .header-top, .header-content {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    } 
+
+    .header-top {
+        width: 100%;
+    }
+
+    .header-title {
+        font-size: 32px;
+        line-height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .header-subtitle {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    /* MAIN */
+    .main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .main .container {
+        width: 100%;
+    }
+    
+    .main-row {
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+
+    .no-margin {
+        flex-direction: column;
+    }
+
+    .header-2 {
+        font-size: 34px;
+        line-height: 100%;
+    }
+
+
+    .main-content {
+        width: auto;
+    }
+    
+    .main-img {
+        width: auto;
+        height: 150px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    /* //MAIN */
+
+    /* FOOTER */
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+    margin-bottom: 10px;
+    }
+
+    .footer-widget {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .footer-widget-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .footer-widget-wrapper > * {
+        width: auto;
+    }
+
+    .services {
+        display: block;
+    }
+
+    .footer-widget-title {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    .footer-widget-list {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .footer-widget-list li {
+        margin-bottom: 10px;
+    }
+
+    /* //FOOTER */
+}

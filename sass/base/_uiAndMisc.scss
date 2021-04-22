@@ -1,0 +1,206 @@
+
+
+
+.form {
+    width: 630px;
+    padding: 40px;
+
+    background: #FFF;
+    box-shadow: 0px 10px 20px rgba(211, 211, 211, 0.25);
+}
+
+/* форма заявки */
+.form-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group-title {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.form-group-row {
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-row > .input + .input {
+    margin-left: 10px;
+}
+
+.input {
+    height: 50px;
+    padding: 0 20px;
+    width: 100%;
+
+    background: #EEEEEE;
+    border: 1px solid #C0C0C0;
+    border-radius: 6px;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgb(49, 64, 91);
+}
+
+.input::placeholder {
+    color:#8F97A5;
+}
+
+.input:focus {
+    outline: none;
+    border: 2px solid rgb(42, 182, 152);
+    box-shadow: 0px 0px 13px 0px rgba(42, 182, 152, 0.75);
+}
+
+.radio-row {
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.real-radio {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    appearance: none;
+}
+
+.real-radio:focus + .custom-radio {
+    border: 1px solid #2AB698;
+}
+
+.custom-radio {
+    display: inline-block;
+    vertical-align: bottom;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+    background: #EEEEEE;
+    border: 1px solid #C0C0C0;
+
+    position: relative;
+}
+
+.custom-radio::before {
+    display: block;
+    content: "";
+ 
+    width: 12px;
+    height: 12px;
+
+    border-radius: 50%;
+    background: #2AB698;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .25s ease-in;
+    }
+
+.real-radio:checked + .custom-radio::before{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+/*---------чекбоксы---------*/
+.checkbox-wrapper {
+    display: flex;
+    height: 143px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 35px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.checkbox-row {
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.real-checkbox {
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    appearance: none;
+}
+
+.real-checkbox:focus + .custom-checkbox {
+    border: 1px solid #2AB698;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    vertical-align: bottom;
+    flex-shrink: 0;
+
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+
+    background: #EEEEEE;
+    border: 1px solid #C0C0C0;
+
+    position: relative;    
+}
+
+.custom-checkbox::before {
+    display: block;
+    content: "";
+ 
+    width: 17px;
+    height: 17px;
+    background-image: url("../img/check.svg");
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -35%) scale(0);
+    transition: .25s ease-in;
+    }
+
+.real-checkbox:checked + .custom-checkbox::before{
+    transform: translate(-40%, -35%) scale(1);
+}
+
+/*---------//чекбоксы---------*/
+/* // форма заявки */
+
+
+.paragraph-404{
+    text-align: center;
+}
+
+

@@ -1,0 +1,71 @@
+/*нормализация и стандартные стили*/
+/* font-family: 'Lobster', cursive;
+font-family: 'PT Sans', sans-serif; */
+
+html,body,iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, dl,
+dt, dd, ol, ul, li, fieldset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: none;
+}
+
+legend {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+*, *::before, *::after{
+Box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%; /*sticky footer*/
+}
+
+.none {
+    display: none;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+    height: 100%; /*sticky footer*/
+    display: flex; /*sticky footer*/
+    flex-direction: column; /*sticky footer*/
+}
+
+body > * {
+    flex-shrink: 0;
+}
+/* выбор любого элемента первого уровня вложенности внутри body  */
+
+.inner-body {
+    background-color: #F2F8F6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+.inner-page {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    color: #31405B;
+}
+
+.external-link {
+  color: #138ECE;  
+}
